@@ -7,7 +7,7 @@ const {setupWebsocket} = require('./websocket');
 
 const app = express();
 const server = http.Server(app);
-const connString = '***';
+const connString = 'mongodb+srv://oministack:oministack333@cluster0-d1ws6.gcp.mongodb.net/week10?retryWrites=true&w=majority';
 
 setupWebsocket(server);
 
